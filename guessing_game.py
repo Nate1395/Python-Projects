@@ -69,16 +69,17 @@ while True:
       print("Nicely done!\n")
       break
       
-    print("Congratulations! It took you {} tries\n".format(count))
+  print("Congratulations! It took you {} tries\n".format(count))
   
-  play_again = input("Would you like to play again? \nPlease, enter Yes or No. --> ")
+  play_again = input("Would you like to play again? \n\nPlease, enter Yes or No. --> ")
 
   if play_again.lower() == "yes":
-    print("All right! Here we go.")
+    print("\nAll right! Here we go.\n")
     start_game()
   
   elif play_again.lower() == "no":
-    print("Game over. I hope you had fun!")
+    print("\nGame over. I hope you had fun!")
+    print()
     break
 
 # Kick off the program by calling the start_game function.
