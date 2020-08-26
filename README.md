@@ -1,4 +1,4 @@
-# Python-Projects
+# Python Techdegree Project 1
 # Project 1 of the TeamTreehouse Python Techdegree
 # A Number Guessing Game
 # The object of the game is to store a random number
